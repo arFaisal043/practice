@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+#main-container {
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+#nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+#nav_part_1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+#nav h5 {
+    font-size: 16px;
+    font-weight: 500;
+    border: 1.5px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+
+#nav i {
+    font-size: 16px;
+    font-weight: 500;
+    border: 1.5px solid black;
+    padding: 5px 8px;
+    border-radius: 50px;
+}
+
+#nav h1 {
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#nav button {
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1.5px solid black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn_2 {
+    background-color: orange;
+    color: black;
+    border: none;
+}
+
+.btn_2:hover {
+    color: white;
+    background-color: orangered;
+    border: none;
+}
+
+#main-container > h1{
+    font-size: 150px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+}
+
+img {
+    height: 350px;
+    width: 250px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 20px;
+
+}
+
+#img_1 {
+    transform: translate(-50% , -50%) rotate(-30deg);
+}
+
+#img_2 {
+    transform: translate(-50% , -50%) rotate(-20deg);
+}
+
+#img_3 {
+    transform: translate(-50% , -50%) rotate(-10deg);
+}
+
+#bottom_left {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    font-size: 17px;
+}
+
+#icon {
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    gap: 100px;
+    
+  
+    
+
+}
